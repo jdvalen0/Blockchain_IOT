@@ -1,0 +1,37 @@
+<html>
+    <body style="text-align: center"></body>
+
+    <h1 style="text-align:center ; color:greenyellow ; background-color:black">
+      Bienvenidos Blockchain Django Python</h1>
+    <h3>Informacion del Empleado</h3>  
+    <p>Nombres y Apellidos: <input type="Text" name="NombreCompleto"></p>
+    <h3>Tipo de Identificacion</h3>
+    <p>
+      Cedula Ciudadania  <input type="radio" name="CedulaCiudadania">
+      Cedula Extranjeria <input type="radio" name="CedulaExtranjeria">
+      Pasaporte <input type="radio" name="Pasaporte">
+    </p>
+    Numero Identificacion: <input type="number" name="NumeroIdentificacion">
+    <p> Salario Actual: <input type="number" name="SalarioActual"></p>
+    <p> Cargo: <input type="text" name="Cargo"></p>
+    <p> Area de Trabajo: <input type="text" name="AreaTrabajo">
+    <p><strong>EPS</strong></p>
+    <select>
+    <option>Seleccione EPS</option><option>SAVIA SALUD</option>Protección S.A.><option>EPS SURA</option> 
+    </select>
+    
+    <p><strong>(Fondos de Pensiones)</strong></p>
+    <select> 
+    <option>Seleccione AFP</option><option>Protección S.A.</option><option>Porvenir S.A.</option</p>
+    </select>  
+   
+    <p><strong>ARL (Riesgos Laborales)</strong></p>
+    <select> 
+    <option>Seleccione AFP</option><option>Seguros Bolivar</option><option>Colpatria</option><option>Suramericana</option</p>
+    </select> 
+    
+    <form action="//" method="get">
+    <p> <input type="submit" value="Enviar"></p>
+    </form></p>
+    </body>
+    </html>
